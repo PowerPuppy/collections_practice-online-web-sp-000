@@ -31,11 +31,11 @@ end
 
 def kesha_maker(array)
   results = []
-  array.each { |e| results << e.insert(2,'$') }
-  results = results.each { |e| e.slice!(3)  }
+  array.each { |element| results << element.insert(2,'$') }
+  results = results.each { |element| element.slice!(3)  }
   results
 end
 
 def find_a(array)
-  array.select {|e| ele[0] == 'a' }
+  array.select {|element| element[0] == 'a' }
 end
