@@ -15,6 +15,6 @@ end
 end
 
 def swap_elements(array)
-  array(2) <=> array(1)
+  swap_elements_from_to(array,1,2)
 
 end
