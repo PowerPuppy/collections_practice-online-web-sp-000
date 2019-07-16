@@ -28,3 +28,10 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  results= []
+  array.each {|string| results<<string.insert(2,"$")}
+  results = result.each {|string| string.slice!(3)}
+
+end
