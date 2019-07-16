@@ -51,3 +51,7 @@ def sum_array(array)
   #using .reduce method
   #array.reduce(:+)
 end
+
+def add_s(array)
+  array.each_with_index.collect {|ele,idx| idx == 1 ? array[idx] : ele << 's' }
+end
