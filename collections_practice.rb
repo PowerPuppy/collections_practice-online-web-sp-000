@@ -35,3 +35,7 @@ def kesha_maker(array)
   results = result.each {|string| string.slice!(3)}
   results
 end
+
+def find_a(array)
+  array.select {|ele| ele[0] == 'a' }
+end
