@@ -41,5 +41,12 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.reduce(:+)
+  # using .each method
+  # array.each {|n| total +=n}
+  # total
+
+  #using .inject method
+  array.inject{|total, n| total +=n}
+  total
+  #array.reduce(:+)
 end
